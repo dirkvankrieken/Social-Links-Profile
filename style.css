@@ -1,0 +1,86 @@
+:root {
+	--green: hsl(75, 94%, 57%);
+	--white: hsl(0, 0%, 100%);
+	--grey: hsl(0, 0%, 20%);
+	--darkgrey: hsl(0, 0%, 12%);
+	--off-black: hsl(0, 0%, 8%);
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+body {
+	box-sizing: border-box;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	font-family: 'Inter', sans-serif;
+	background-color: var(--off-black);
+	color: var(--white);
+}
+
+main {
+	width: 400px;
+	margin: 0 auto;
+	background-color: var(--darkgrey);
+}
+
+main img {
+	margin-top: 40px;
+	max-width: 100px;
+	border-radius: 50%;
+}
+
+main h1 {
+	margin: 10px;
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+main span {
+	color: var(--green);
+}
+
+main p {
+	margin: 25px 0;
+}
+
+main ul {
+	margin: 20px 0 40px;
+}
+
+main li {
+	font-size: 0.9rem;
+	font-weight: 600;
+	margin: 20px auto;
+	width: 80%;
+	border-radius: 10px;
+	background-color: var(--grey);
+	list-style-type: none;
+}
+
+main li a {
+	border-radius: 10px;
+	display: block;
+	padding: 15px;
+	color: white;
+	text-decoration: none;;
+}
+
+main li a:hover {
+	background-color: var(--green);
+	color: var(--off-black);
+}
